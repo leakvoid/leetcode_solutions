@@ -1,5 +1,7 @@
 import math
 
+# middle is shifter to the left or right related to original position depending on how many elemenets of second subarray get to the left / right of first one
+
 class Solution(object):
     
     def get_median(self, arr, left, right):
