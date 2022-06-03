@@ -22,15 +22,11 @@ class Solution:
                 list2 = list2.next
             list3 = list3.next
             
-        while list1:
+        if list1:
             list3.next = list1
-            list3 = list3.next
-            list1 = list1.next
         
-        while list2:
+        if list2:
             list3.next = list2
-            list3 = list3.next
-            list2 = list2.next
             
         return head
 
