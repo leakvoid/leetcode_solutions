@@ -1,6 +1,10 @@
 import string
 import math
 
+# pull previous sumbol after matching current one; do this pull in case of *
+# after initial preprocessing, PULL EVERYTHING to the right; by amount corresponding to * of middle elements
+# PRIOR , AFTER fuzzy substring should be taken into consideration
+
 class Solution:
     def NminDistance(self, word1: str, word2: str) -> int:
         letter_dict = {}
