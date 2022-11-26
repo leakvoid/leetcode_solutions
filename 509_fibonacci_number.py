@@ -4,3 +4,4 @@ class Solution:
         while len(dp) <= n:
             dp.append(dp[-1] + dp[-2])
         return dp[n]
+
