@@ -20,3 +20,5 @@ class Solution:
                 res[pos] = str(place)
             place += 1
         return res
+
+
