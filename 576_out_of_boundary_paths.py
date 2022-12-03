@@ -28,3 +28,4 @@ class Solution:
                 self.memory[row][col] = {}
         
         return self.paths_rec(m, n, maxMove, startRow, startColumn) % (pow(10, 9) + 7)
+
